@@ -11,4 +11,4 @@ Checkout the source.
 
 Run `mvn clean install` to generate the jar file
 
-Run java-jar target/Test-1.0-SNAPSHOT.jar` <CSV file with lenders> amountToBorrow
+Run `java-jar target/Test-1.0-SNAPSHOT-jar-with-dependencies.jar  <CSV file with lenders> <amountToBorrow>`
