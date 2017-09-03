@@ -46,7 +46,6 @@ public class main {
 
     private static List<Lender> parseLenderCSV(String csvFile) throws IOException {
 
-        ClassLoader classLoader = main.class.getClassLoader();
         List<Lender> lenderList = new ArrayList<>();
 
         CSVReader reader = null;
